@@ -10,15 +10,15 @@ function App() {
 
   return (
     <div 
-      className="min-h-screen relative"
+      className="min-h-screen relative bg-cover bg-center sm:bg-cover sm:bg-top"
       style={{
         backgroundImage: 'url("/davey-background.png")',
-        backgroundSize: 'cover',
+        backgroundSize: 'contain',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
       }}
     >
-      <div className="absolute inset-0 bg-white/80"></div>
+      <div className="absolute inset-0 bg-white/30"></div>
       
       <LanguageSelector value={language} onChange={setLanguage} />
       
