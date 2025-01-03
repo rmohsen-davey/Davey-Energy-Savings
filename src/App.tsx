@@ -18,7 +18,7 @@ function App() {
         backgroundRepeat: 'no-repeat'
       }}
     >
-      <div className="absolute inset-0 bg-white/30"></div>
+      <div className="absolute inset-0 bg-white/10"></div>
       
       <LanguageSelector value={language} onChange={setLanguage} />
       
