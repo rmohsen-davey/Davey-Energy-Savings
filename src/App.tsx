@@ -14,7 +14,7 @@ function App() {
       style={{
         backgroundImage: 'url("/davey-background.png")',
         backgroundSize: 'contain',
-        backgroundPosition: 'center',
+        backgroundPosition: 'top',
         backgroundRepeat: 'no-repeat'
       }}
     >
