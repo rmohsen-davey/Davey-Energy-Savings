@@ -13,8 +13,6 @@ function App() {
       className="min-h-screen relative bg-fixed bg-cover bg-center sm:bg-fixed sm:bg-cover sm:bg-top"
       style={{
         backgroundImage: 'url("/davey-background.png")',
-        backgroundSize: 'contain',
-        backgroundPosition: 'top',
         backgroundRepeat: 'no-repeat'
       }}
     >
