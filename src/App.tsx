@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div 
-      className="min-h-screen relative bg-fixed bg-cover bg-center sm:bg-cover sm:bg-top"
+      className="min-h-screen relative bg-fixed bg-contain bg-center sm:bg-fixed sm:bg-contain sm:bg-top"
       style={{
         backgroundImage: 'url("/davey-background.png")',
         backgroundPosition: 'top',
