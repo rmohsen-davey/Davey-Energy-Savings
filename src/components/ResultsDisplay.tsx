@@ -58,9 +58,9 @@ export default function ResultsDisplay({ results, language }: ResultsDisplayProp
         </div>
       </div>
 
-      <div className="col-span-2 bg-gradient-to-br from-blue-600 to-blue-700 p-4 rounded-2xl shadow-lg text-white">
-        <h3 className="text-sm font-medium mb-2">{t.recommendedPump}</h3>
-        <p className="text-2xl font-semibold">{results.modelePompe}</p>
+      <div className="col-span-2 bg-gradient-to-br from-[#FACE05] to-[#E5B904] p-4 rounded-2xl shadow-lg">
+        <h3 className="text-sm font-medium mb-2 text-gray-900">{t.recommendedPump}</h3>
+        <p className="text-2xl font-semibold text-gray-900">{results.modelePompe}</p>
       </div>
     </div>
   );
