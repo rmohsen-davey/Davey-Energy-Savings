@@ -22,5 +22,5 @@ export const CONSOMMATION_SILENSOR_OPTIMISEE: Record<number, number> = {
 
 export const CONSOMMATION_STARFLO_OPTIMISEE: Record<number, number> = {
   20: 2700, 30: 3000, 40: 3000, 50: 3320, 60: 4600, 70: 5160,
-  80: 5160, 90: 5160, 100: 7260, 110: 7680, 120: 8420
+  80: 5170, 90: 5180, 100: 7260, 110: 7680, 120: 8420
 };
