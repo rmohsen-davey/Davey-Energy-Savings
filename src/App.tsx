@@ -12,7 +12,7 @@ function App() {
     <div 
       className="min-h-screen relative bg-fixed bg-contain bg-center sm:bg-fixed sm:bg-contain sm:bg-top"
       style={{
-        backgroundImage: 'url("/davey-background.png")',
+        backgroundImage: 'url("/davey-background.jpeg")',
         backgroundPosition: 'top',
         backgroundRepeat: 'no-repeat'
       }}
