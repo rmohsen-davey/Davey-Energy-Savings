@@ -119,7 +119,7 @@ export default function CalculatorForm({
 
       <button
         onClick={onCalculate}
-        className="col-span-2 bg-blue-600 text-white py-3 px-4 rounded-xl font-medium hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/20"
+        className="col-span-2 bg-[#FACE05] text-gray-900 py-3 px-4 rounded-xl font-medium hover:bg-[#E5B904] transition-colors shadow-lg shadow-[#FACE05]/20"
       >
         {t.calculate}
       </button>
