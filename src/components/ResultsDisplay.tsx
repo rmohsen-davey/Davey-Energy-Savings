@@ -27,7 +27,7 @@ export default function ResultsDisplay({ results, language }: ResultsDisplayProp
 
       <div className="col-span-2 sm:col-span-1 bg-white/80 backdrop-blur p-4 rounded-2xl shadow-lg">
         <div className="flex items-center gap-2 mb-2">
-          <Battery className="w-5 h-5 text-green-600" />
+          <Battery className="w-5 h-5 text-blue-600" />
           <h3 className="text-sm font-medium text-gray-600">{t.optimizedConsumption}</h3>
         </div>
         <div className="space-y-1">
@@ -38,7 +38,7 @@ export default function ResultsDisplay({ results, language }: ResultsDisplayProp
 
       <div className="col-span-2 sm:col-span-1 bg-white/80 backdrop-blur p-4 rounded-2xl shadow-lg">
         <div className="flex items-center gap-2 mb-2">
-          <Euro className="w-5 h-5 text-blue-600" />
+          <Euro className="w-5 h-5 text-green-600" />
           <h3 className="text-sm font-medium text-gray-600">{t.savings}</h3>
         </div>
         <div className="space-y-1">
