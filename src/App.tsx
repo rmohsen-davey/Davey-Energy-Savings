@@ -23,8 +23,8 @@ function App() {
       
       <div className="relative max-w-lg mx-auto px-4 py-8">
         <header className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-xl mb-4">
-            <Waves className="w-6 h-6" />
+          <div className="inline-flex items-center justify-center w-12 h-12 bg-white-600 text-yellow rounded-xl mb-4">
+            <Waves className="w-10 h-10" />
           </div>
           <h1 className="text-2xl font-semibold text-gray-900">
             {t.title}
