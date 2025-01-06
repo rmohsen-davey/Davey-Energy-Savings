@@ -14,7 +14,7 @@ export default function CalculatorTypeSelector({ value, onChange }: CalculatorTy
         onClick={() => onChange('SILENSOR/SILENSOR VSD')}
         className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
           value === 'SILENSOR/SILENSOR VSD'
-            ? 'bg-white text-blue-600 shadow'
+            ? 'bg-white text-yellow-400 shadow'
             : 'text-gray-600 hover:bg-white/50'
         }`}
       >
@@ -24,7 +24,7 @@ export default function CalculatorTypeSelector({ value, onChange }: CalculatorTy
         onClick={() => onChange('STARFLO/STARFLO-VS')}
         className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
           value === 'STARFLO/STARFLO-VS'
-            ? 'bg-white text-blue-600 shadow'
+            ? 'bg-white text-yellow-400 shadow'
             : 'text-gray-600 hover:bg-white/50'
         }`}
       >
