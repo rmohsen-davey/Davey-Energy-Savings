@@ -1,4 +1,4 @@
-export type Language = 'fr' | 'en' | 'es' | 'it' | 'pt';
+export type Language = 'fr' | 'en' | 'es' | 'it' | 'pt' | 'de' | 'nl';
 
 export const translations = {
   fr: {
@@ -149,6 +149,66 @@ export const translations = {
       "Os resultados excluem modos específicos como modo boost, escorva, retrolavagem, etc.",
       "Os ciclos de filtração assumem que o volume da piscina é reciclado entre 2,5 e 3 vezes por dia (24 horas).",
       "Outros parâmetros externos, como temperatura da água, instalação hidráulica ou hábitos de uso, podem influenciar o consumo real."
+    ]
+  },
+de: {
+    title: "Energieeinsparungsrechner",
+    subtitle: "Berechnen Sie Ihre Einsparungen durch den Wechsel zu einer variablen Geschwindigkeitspumpe",
+    pumpType: "Rechnertyp",
+    kwhPrice: "kWh-Preis (€)",
+    poolVolume: "Poolvolumen (m³)",
+    pumpPower: "Leistung der Ein-Geschwindigkeits-Pumpe (PS)",
+    filtrationHours: "Filtrationsstunden pro Tag mit einer Ein-Geschwindigkeits-Pumpe",
+    seasonDuration: "Saisondauer",
+    months: "Monate",
+    calculate: "Einsparungen berechnen",
+    results: {
+      currentConsumption: "Aktueller Verbrauch pro Saison",
+      optimizedConsumption: "Optimierter Verbrauch pro Saison",
+      savings: "Einsparungen",
+      reduction: "Reduktion",
+      recommendedPump: "Empfohlene Pumpe",
+      singleSpeedPump: "Ein-Geschwindigkeits-Pumpe",
+      variableSpeedPump: "Variable Geschwindigkeitspumpe",
+      perYear: "pro Jahr",
+      electricity: "Strom"
+    },
+    footer: [
+      "Die Ergebnisse dienen nur zur Information und stellen keine Garantie für tatsächliche Einsparungen dar.",
+      "Berechnungen basieren auf der maximalen Durchflussrate, die die variable Geschwindigkeitspumpe bei jeder Geschwindigkeit liefern kann.",
+      "Die Ergebnisse schließen spezielle Modi wie Boost-Modus, Ansaugen, Rückspülen usw. aus.",
+      "Filtrationszyklen gehen davon aus, dass das Poolvolumen 2,5 bis 3 Mal pro Tag (24 Stunden) recycelt wird.",
+      "Andere externe Parameter, wie Wassertemperatur, hydraulische Installation oder Nutzungsgewohnheiten, können den tatsächlichen Verbrauch beeinflussen."
+    ]
+  },
+  nl: {
+    title: "Energiebesparingscalculator",
+    subtitle: "Bereken uw besparingen door over te stappen op een variabele snelheids- pomp",
+    pumpType: "Calculatortype",
+    kwhPrice: "kWh-prijs (€)",
+    poolVolume: "Zwembadvolume (m³)",
+    pumpPower: "Vermogen van de enkelvoudige pomp (PK)",
+    filtrationHours: "Filtratietijden per dag met een enkelvoudige pomp",
+    seasonDuration: "Seizoensduur",
+    months: "maanden",
+    calculate: "Besparingen berekenen",
+    results: {
+      currentConsumption: "Huidig verbruik per seizoen",
+      optimizedConsumption: "Geoptimaliseerd verbruik per seizoen",
+      savings: "Besparingen",
+      reduction: "Reductie",
+      recommendedPump: "Aanbevolen pomp",
+      singleSpeedPump: "Enkelvoudige pomp",
+      variableSpeedPump: "Variabele snelheids- pomp",
+      perYear: "per jaar",
+      electricity: "elektriciteit"
+    },
+    footer: [
+      "De resultaten worden alleen ter informatie verstrekt. Ze vormen geen garantie voor daadwerkelijke besparingen.",
+      "Berekeningen zijn gebaseerd op het maximale debiet dat de variabele snelheids- pomp bij elke snelheid kan leveren.",
+      "Resultaten sluiten specifieke modi uit, zoals boostmodus, primen, terugspoelen, enz.",
+      "Filtratiecycli gaan ervan uit dat het zwembadvolume 2,5 tot 3 keer per dag (24 uur) wordt gerecycled.",
+      "Andere externe parameters, zoals watertemperatuur, hydraulische installatie of gebruiksgewoonten, kunnen het daadwerkelijke verbruik beïnvloeden."
     ]
   }
 };
