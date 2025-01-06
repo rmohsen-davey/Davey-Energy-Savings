@@ -11,7 +11,9 @@ const languages: { code: Language; label: string }[] = [
   { code: 'en', label: 'English' },
   { code: 'es', label: 'Español' },
   { code: 'it', label: 'Italiano' },
-  { code: 'pt', label: 'Português' }
+  { code: 'pt', label: 'Português' },
+  { code: 'de', label: 'Deutsch' },
+  { code: 'nl', label: 'Nederlands' }
 ];
 
 export default function LanguageSelector({ value, onChange }: LanguageSelectorProps) {
