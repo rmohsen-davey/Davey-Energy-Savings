@@ -1,6 +1,6 @@
 // Tableaux de référence pour les puissances des pompes
 export const PUISSANCE_SILENSOR_TABLE = {
-  "3/4 CV": 860,
+  "0.75 CV": 860,
   "1 CV": 1130,
   "1.5 CV": 1400,
   "2 CV": 1760
