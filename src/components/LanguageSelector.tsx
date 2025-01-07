@@ -19,7 +19,7 @@ const languages: { code: Language; label: string }[] = [
 export default function LanguageSelector({ value, onChange }: LanguageSelectorProps) {
   return (
     <div className="relative w-full">
-  <div className="absolute top-4 right-4 z-50"> {/* Ajoutez un z-index élevé si nécessaire */}
+  <div className="absolute top-1 right-1 z-50"> {/* Ajoutez un z-index élevé si nécessaire */}
     <select
       value={value}
       onChange={(e) => onChange(e.target.value as Language)}
