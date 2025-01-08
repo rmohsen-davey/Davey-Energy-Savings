@@ -28,7 +28,8 @@ export const translations = {
       "Les calculs sont basés sur le débit maximal que la pompe à vitesse variable peut délivrer à chaque vitesse.",
       "Les résultats excluent les modes spécifiques tels que le mode boost, amorçage, contre-lavage, etc.",
       "Les cycles de filtration supposent que le volume de la piscine est recyclé entre 2.5 et 3 fois par jour (24 heures).",
-      "D'autres paramètres externes, comme la température de l'eau, de l'installation hydraulique ou les habitudes d'utilisation, peuvent influencer les consommations réelles."
+      "D'autres paramètres externes, comme la température de l'eau, l'installation hydraulique ou les habitudes d'utilisation, peuvent influencer les consommations réelles.",
+      "La responsabilité de Davey ne peut être engagée en cas de différence entre les économies théoriques présentées ci-dessus et les économies réelles réalisées."
     ]
   },
   en: {
@@ -58,7 +59,8 @@ export const translations = {
       "Calculations are based on the maximum flow rate that the variable speed pump can deliver at each speed.",
       "Results exclude specific modes such as boost mode, priming, backwashing, etc.",
       "Filtration cycles assume the pool volume is recycled between 2.5 and 3 times per day (24 hours).",
-      "Other external parameters, such as water temperature, hydraulic installation or usage habits, may influence actual consumption."
+      "Other external parameters, such as water temperature, hydraulic installation or usage habits, may influence actual consumption.",
+      "Davey cannot be held responsible for any difference between the theoretical savings shown above and the actual savings achieved."
     ]
   },
   es: {
@@ -88,7 +90,8 @@ export const translations = {
       "Los cálculos se basan en el caudal máximo que la bomba de velocidad variable puede entregar en cada velocidad.",
       "Los resultados excluyen modos específicos como el modo boost, cebado, contralavado, etc.",
       "Los ciclos de filtración suponen que el volumen de la piscina se recicla entre 2,5 y 3 veces al día (24 horas).",
-      "Otros parámetros externos, como la temperatura del agua, la instalación hidráulica o los hábitos de uso, pueden influir en el consumo real."
+      "Otros parámetros externos, como la temperatura del agua, la instalación hidráulica o los hábitos de uso, pueden influir en el consumo real.",
+      "Davey no se hace responsable de ninguna diferencia entre el ahorro teórico indicado y el ahorro real conseguido."
     ]
   },
   it: {
@@ -118,7 +121,8 @@ export const translations = {
       "I calcoli si basano sulla portata massima che la pompa a velocità variabile può fornire a ciascuna velocità.",
       "I risultati escludono modalità specifiche come la modalità boost, adescamento, controlavaggio, ecc.",
       "I cicli di filtrazione suppongono che il volume della piscina venga riciclato tra 2,5 e 3 volte al giorno (24 ore).",
-      "Altri parametri esterni, come la temperatura dell'acqua, l'installazione idraulica o le abitudini d'uso, possono influire sul consumo effettivo."
+      "Altri parametri esterni, come la temperatura dell'acqua, l'installazione idraulica o le abitudini d'uso, possono influire sul consumo effettivo.",
+      "Davey non può essere ritenuta responsabile di eventuali differenze tra i risparmi teorici sopra indicati e quelli effettivamente conseguiti."
     ]
   },
   pt: {
@@ -148,7 +152,8 @@ export const translations = {
       "Os cálculos são baseados na vazão máxima que a bomba de velocidade variável pode fornecer em cada velocidade.",
       "Os resultados excluem modos específicos como modo boost, escorva, retrolavagem, etc.",
       "Os ciclos de filtração assumem que o volume da piscina é reciclado entre 2,5 e 3 vezes por dia (24 horas).",
-      "Outros parâmetros externos, como temperatura da água, instalação hidráulica ou hábitos de uso, podem influenciar o consumo real."
+      "Outros parâmetros externos, como temperatura da água, instalação hidráulica ou hábitos de uso, podem influenciar o consumo real.",
+      "A Davey não pode ser responsabilizada por qualquer diferença entre as poupanças teóricas apresentadas acima e as poupanças efetivamente realizadas."
     ]
   },
 de: {
@@ -178,7 +183,8 @@ de: {
       "Berechnungen basieren auf der maximalen Durchflussrate, die die variable Geschwindigkeitspumpe bei jeder Geschwindigkeit liefern kann.",
       "Die Ergebnisse schließen spezielle Modi wie Boost-Modus, Ansaugen, Rückspülen usw. aus.",
       "Filtrationszyklen gehen davon aus, dass das Poolvolumen 2,5 bis 3 Mal pro Tag (24 Stunden) recycelt wird.",
-      "Andere externe Parameter, wie Wassertemperatur, hydraulische Installation oder Nutzungsgewohnheiten, können den tatsächlichen Verbrauch beeinflussen."
+      "Andere externe Parameter, wie Wassertemperatur, hydraulische Installation oder Nutzungsgewohnheiten, können den tatsächlichen Verbrauch beeinflussen.",
+      "Davey haftet nicht für die Differenz zwischen den oben dargestellten theoretischen Einsparungen und den tatsächlich erzielten Einsparungen."
     ]
   },
   nl: {
@@ -208,7 +214,8 @@ de: {
       "Berekeningen zijn gebaseerd op het maximale debiet dat de variabele snelheids- pomp bij elke snelheid kan leveren.",
       "Resultaten sluiten specifieke modi uit, zoals boostmodus, primen, terugspoelen, enz.",
       "Filtratiecycli gaan ervan uit dat het zwembadvolume 2,5 tot 3 keer per dag (24 uur) wordt gerecycled.",
-      "Andere externe parameters, zoals watertemperatuur, hydraulische installatie of gebruiksgewoonten, kunnen het daadwerkelijke verbruik beïnvloeden."
+      "Andere externe parameters, zoals watertemperatuur, hydraulische installatie of gebruiksgewoonten, kunnen het daadwerkelijke verbruik beïnvloeden.",
+      "Davey kan niet verantwoordelijk worden gehouden voor enig verschil tussen de theoretische besparingen die hierboven worden getoond en de daadwerkelijke besparingen die zijn gerealiseerd."
     ]
   }
 };
