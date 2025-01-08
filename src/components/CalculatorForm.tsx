@@ -38,13 +38,9 @@ export default function CalculatorForm({
     ? PUISSANCE_SILENSOR_TABLE 
     : PUISSANCE_STARFLO_TABLE;
 
-  // Generate volume options from 20 to 120 m³ in steps of 10
-  const volumeOptions = Array.from({ length: 11 }, (_, i) => (i + 2) * 10);
-  
-  // Generate filtration hours options from 8 to 24
+  const maxVolume = calculateur === 'SILENSOR/SILENSOR VSD' ? 100 : 110;
+  const volumeOptions = Array.from({ length: (maxVolume - 10) / 10 }, (_, i) => (i + 2) * 10);
   const filtrationHoursOptions = Array.from({ length: 17 }, (_, i) => i + 8);
-  
-  // Generate season duration options from 1 to 12 months
   const seasonDurationOptions = Array.from({ length: 12 }, (_, i) => i + 1);
 
   return (
