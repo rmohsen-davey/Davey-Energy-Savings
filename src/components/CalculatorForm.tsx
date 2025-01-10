@@ -57,7 +57,7 @@ export default function CalculatorForm({
             max="1.00"
             className="w-full rounded-xl bg-white/50 backdrop-blur p-2 text-gray-900 focus:ring-2 focus:ring-blue-500 border-none"
           />
-          <span className="absolute right-3 top-2 text-gray-400">€</span>
+          <span className="absolute right-3 top-2 text-black">€</span>
         </div>
       </div>
 
