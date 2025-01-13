@@ -20,7 +20,7 @@ export default function ResultsDisplay({ results, language }: ResultsDisplayProp
         return '/SP400BT.png';
       case 'DSF250VS':
       case 'DSF420VS':
-        return '/Starflovs.jpg';
+        return '/Starflovs.png';
       default:
         return '';
     }
