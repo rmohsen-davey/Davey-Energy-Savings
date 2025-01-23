@@ -43,6 +43,14 @@ export default function CalculatorForm({
   const filtrationHoursOptions = Array.from({ length: 17 }, (_, i) => i + 8);
   const seasonDurationOptions = Array.from({ length: 12 }, (_, i) => i + 1);
 
+  const formatPowerUnit = (power: string) => {
+    if (language === 'en') {
+      // Pour l'anglais, remplacer "CV" par "HP" dans la chaîne
+      return power.replace('CV', 'HP');
+    }
+    return power;
+  };
+
   return (
     <div className="grid grid-cols-2 gap-4">
       <div className="col-span-2 sm:col-span-1">
