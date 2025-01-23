@@ -90,7 +90,7 @@ export default function CalculatorForm({
           className="w-full mt-1 rounded-xl bg-white/50 backdrop-blur p-2 text-gray-900 focus:ring-2 focus:ring-blue-500 border-none"
         >
           {Object.keys(puissanceTable).map(power => (
-            <option key={power} value={power}>{power}</option>
+            <option key={power} value={power}>{formatPowerUnit(power)}</option>
           ))}
         </select>
       </div>
